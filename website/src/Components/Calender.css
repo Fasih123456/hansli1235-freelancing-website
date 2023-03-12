@@ -1,0 +1,86 @@
+/* Style for the day text row */
+.row-daytext {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style for the day number row */
+.row-daynumber {
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+/* Style for the grid header */
+.row-header {
+  background-color: #d9d9d9;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style for the channel name column */
+.col-channel {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Style for the program name column */
+.col-program {
+  background-color: #e8e8e8;
+}
+
+/* Style for the hour columns */
+.col-hour {
+  background-color: #d9d9d9;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Style for the highlighted program cells */
+.highlighted {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.row-header {
+  background-color: #2d2d2d;
+  color: white;
+  font-weight: bold;
+  width: 300%;
+}
+
+.col-hour {
+  background-color: black;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.col-channel {
+  background-color: #2d2d2d;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  text-align: center;
+  min-width: 100px;
+}
+
+.col-program {
+  border: 1px solid white;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.highlighted {
+  background-color: grey;
+}
+
+.row-show {
+  white-space: nowrap;
+}
+
+.row-program {
+  width: 300%;
+  margin-right: -200%;
+  display: flex;
+}
