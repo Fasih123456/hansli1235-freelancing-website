@@ -1,6 +1,8 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 
+import { Link } from "react-router-dom";
+
 import "./Calender.css";
 
 //This function will contain the day number, 1,2,3,4,5
@@ -16,8 +18,10 @@ function DayNumber() {
   }
   return (
     <React.Fragment>
-      {numbers.map((number) => (
-        <Col key={number}>{number}</Col>
+      {numbers.map((day) => (
+        <Col key={day}>
+          <Link to={`/${day}`}>{day}</Link>
+        </Col>
       ))}
     </React.Fragment>
   );

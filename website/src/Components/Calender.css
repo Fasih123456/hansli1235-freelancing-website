@@ -19,26 +19,20 @@
 }
 
 /* Style for the channel name column */
-.col-channel {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
 
 /* Style for the program name column */
 .col-program {
   background-color: #e8e8e8;
+  border-bottom: 2px solid white;
 }
 
-/* Style for the hour columns */
-.col-hour {
-  background-color: #d9d9d9;
-  text-align: center;
-  font-weight: bold;
+.col {
+  border-left: 0px;
+  border-right: 0px;
 }
 
 /* Style for the highlighted program cells */
 .highlighted {
-  background-color: red;
   color: white;
   font-weight: bold;
 }
@@ -62,17 +56,10 @@
   font-weight: bold;
   border: 1px solid white;
   text-align: center;
-  min-width: 100px;
-}
-
-.col-program {
-  border: 1px solid white;
-  text-align: center;
-  white-space: nowrap;
 }
 
 .highlighted {
-  background-color: grey;
+  background-color: green;
 }
 
 .row-show {
@@ -83,4 +70,17 @@
   width: 300%;
   margin-right: -200%;
   display: flex;
+  overflow: scroll;
+}
+
+.col-date {
+  align-items: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.calender {
+  font-family: "Roboto", sans-serif;
 }

@@ -20,7 +20,9 @@ function DayText() {
   return (
     <React.Fragment>
       {dates.map((date) => (
-        <Col key={date}>{date}</Col>
+        <Col key={date} className="col-date">
+          {date}
+        </Col>
       ))}
     </React.Fragment>
   );
